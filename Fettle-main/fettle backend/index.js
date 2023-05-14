@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 const conn = createConnection({
-  host: "localhost",
+  host: "3.83.179.241",
   user: "root",
   password: "manager",
   database: "fettle",

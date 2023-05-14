@@ -1,17 +1,17 @@
-import axios from 'axios';
+import axios from "axios";
 
 export async function newCust(Customer) {
-    return axios.post("http://localhost:9800/register", Customer)
+  return axios.post("http://3.83.179.241:9800/register", Customer);
 }
 
 export async function getlogin(emailpassarray) {
-    return axios.post("http://localhost:9800/login", emailpassarray)
+  return axios.post("http://3.83.179.241:9800/login", emailpassarray);
 }
 
 export async function Delete(emailpassarray) {
-    return axios.post("http://localhost:9800/delete", emailpassarray)
+  return axios.post("http://3.83.179.241:9800/delete", emailpassarray);
 }
 
 export async function contactus(Customer) {
-    return axios.post("http://localhost:9800/contactus", Customer)
+  return axios.post("http://3.83.179.241:9800/contactus", Customer);
 }
